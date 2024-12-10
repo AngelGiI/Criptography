@@ -1,0 +1,1550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2017" minor="2"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="true" autoexpanding_sections="true" UserProfileName="Perfil de Maple Predeterminado" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false">
+</View-Properties>
+<MapleNet-Properties prettyprint="3" warnlevel="3" preplot="" helpbrowser="standard" contextmenusize="automatic" displayprecision="-1" echo="1" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="768" rtablesize="10" useclientjvm="true" labelwidth="20" postplot="" typesetting="extended" ansi="false" elisiondigitsthreshold="10000" showassumed="1" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<Styles>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Annotation-table>
+    <Annotation-category name="&lt;default&gt;"/>
+</Annotation-table>
+<Task/><Text-field style="Text" bold="true" foreground="[51,102,255]" size="16" layout="Normal" alignment="centred"><Font size="16" bold="true" foreground="[51,102,255]">Angel Amando Gil Alamo</Font></Text-field><Text-field style="Text" bold="true" foreground="[51,102,255]" size="16" layout="Normal"><Font size="18" foreground="[0,0,0]" bold="true" encoding="UTF-8">ALGORITMOS \303\201LGEBRA COMPUTACIONAL</Font></Text-field>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1">1. Algoritmo de euclides para R un D.E cualquiera y algoritmo de euclides extendido.</Text-field></Title>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">1.1. R=Z</Text-field></Title>
+<Group labelreference="L21" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;
+<Font foreground="[51,102,255]">#Algoritmo de euclides</Font>
+mcdz:=proc(a::integer,b::integer)
+local dividendo,divisor,resto,resultado;
+dividendo:=abs(a);
+divisor:=abs(b);<Font foreground="[0,128,0]">
+</Font>while divisor&lt;&gt;0 do
+resto:=irem(dividendo,divisor);
+dividendo,divisor:=divisor,resto;
+od;
+resultado:=abs(dividendo);
+end:
+
+<Font foreground="[51,102,255]">#Algoritmo de euclides extendido</Font>
+euclidesextz:=proc(a::integer,b::integer) 
+local mcd,resto,coefa,coefb,t,s,cociente; 
+mcd,resto:=a,b; 
+coefb,coefa:=0,1; 
+t,s:=1,0; 
+while resto&lt;&gt;0 do 
+mcd,resto,cociente:=resto,irem(mcd,resto),iquo(mcd,resto); 
+coefa,s:=s,coefa-cociente*s; 
+coefb,t:=t,coefb-cociente*t; 
+od; 
+print(abs(mcd),` = `,a,` * `,coefa,` + `,b,` * `,coefb) 
+end:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L49" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">mcdz(60,16)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEiNEYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJw==">IiIl</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L2389" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">euclidesextz(60,16)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzY0LUkjbW5HRiQ2JFEiNEYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RKCZjb21tYTtGJ0YvLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR1EldHJ1ZUYnLyUpc3RyZXRjaHlHRjgvJSpzeW1tZXRyaWNHRjgvJShsYXJnZW9wR0Y4LyUubW92YWJsZWxpbWl0c0dGOC8lJ2FjY2VudEdGOC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHUSwwLjMzMzMzMzNlbUYnLUkjbWlHRiQ2JVEkfj1+RicvJSdpdGFsaWNHRjsvRjBRJ2l0YWxpY0YnRjItRiw2JFEjNjBGJ0YvRjItRk02JVEkfip+RidGUEZSRjItRiw2JFErJnVtaW51czA7MUYnRi9GMi1GTTYlUSR+K35GJ0ZQRlJGMi1GLDYkUSMxNkYnRi9GMkZXRjJGK0Yv">NisiIiVJJH49fkc2IiIjZ0kkfip+R0YlISIiSSR+K35HRiUiIztGJ0Yj</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">1.2. R=Q[x] </Text-field></Title>
+<Group labelreference="L22" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;
+<Font foreground="[51,102,255]">#Algoritmo de euclides</Font>
+mcdqx:=proc(a::polynom,b::polynom,x)
+local dividendo,divisor,resto,resultado;
+dividendo:=a;
+sort(dividendo);
+divisor:=b;
+sort(divisor);
+while degree(divisor,x)&gt;=0 do
+resto:=rem(dividendo,divisor,x);
+dividendo,divisor:=divisor,resto;
+od;
+resultado:=factor(dividendo/lcoeff(dividendo));
+end:
+
+<Font foreground="[51,102,255]">#Algoritmo de euclides extendido</Font>
+euclidesextqx:=proc(f::polynom,g::polynom,x) 
+local mcd,resto,coeff,coefg,t,s,cociente; 
+if degree(f,x)&lt;degree(g,x) then 
+mcd,resto:=g,f;
+else mcd,resto:=f,g;
+fi; 
+coefg,coeff:=0,1; 
+t,s:=1,0; 
+while resto&lt;&gt;0 do 
+mcd,resto,cociente:=resto,rem(mcd,resto,x),quo(mcd,resto,x); 
+coeff,s:=s,coeff-cociente*s; 
+coefg,t:=t,coefg-cociente*t; 
+od; 
+coeff:=expand(coeff); 
+coefg:=expand(coefg); 
+if degree(mcd,x)=0 then 
+print(1,`=(`,f,`)*(`,coeff/mcd,`)+(`,g,`)*(`,coefg/mcd,`) `); 
+elif mcd mod(coeff(mcd,x,degree(mcd,x)))=0 then 
+print(primpart(mcd,x),`=(`,f,`)*(`,coeff/coeff(mcd,x,degree(mcd,x)),`)+(`,g,`)*(`,coefg/coeff(mcd,x,degree(mcd,x)),`) `); 
+else
+print(mcd,`=(`,f,`)*(`,coeff,`)+(`,g,`)*(`,coefg,`) `); 
+fi;
+end:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L50" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">mcdqx(48*x^3-84*x^2+42*x-36,-4*x^3-10*x^2+44*x-30,x)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEieEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKCZtaW51cztGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yMjIyMjIyZW1GJy8lJ3JzcGFjZUdGTC1JJm1mcmFjR0YkNigtSSNtbkdGJDYkUSIzRidGOS1GUzYkUSIyRidGOS8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGaG4vJSliZXZlbGxlZEdGPUY5">LCZJInhHNiIiIiIjIiIkIiIjISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L2391" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">euclidesextqx(48*x^3-84*x^2+42*x-36,-4*x^3-10*x^2+44*x-30,x)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzY2LUYjNictSSNtb0dGJDYtUSomdW1pbnVzMDtGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRjYvJSlzdHJldGNoeUdGNi8lKnN5bW1ldHJpY0dGNi8lKGxhcmdlb3BHRjYvJS5tb3ZhYmxlbGltaXRzR0Y2LyUnYWNjZW50R0Y2LyUnbHNwYWNlR1EsMC4yMjIyMjIyZW1GJy8lJ3JzcGFjZUdGRS1JJm1mcmFjR0YkNigtRiM2Ji1JI21uR0YkNiRRJTIxNDBGJ0YxLUYuNi1RMSZJbnZpc2libGVUaW1lcztGJ0YxRjRGN0Y5RjtGPUY/RkEvRkRRJjAuMGVtRicvRkdGVS1JI21pR0YkNiVRInhGJy8lJ2l0YWxpY0dRJXRydWVGJy9GMlEnaXRhbGljRidGMS1GTjYkUSQyODlGJ0YxLyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0Ziby8lKWJldmVsbGVkR0Y2LUYuNi1RJyZwbHVzO0YnRjFGNEY3RjlGO0Y9Rj9GQUZDRkYtRkk2KC1GTjYkUSUzMjEwRidGMUZqbkZdb0Zgb0Zjb0Zlb0YxLUYuNi1RKCZjb21tYTtGJ0YxRjQvRjhGZ25GOUY7Rj1GP0ZBRlQvRkdRLDAuMzMzMzMzM2VtRictRlg2JVEjPShGJ0ZlbkZobkZfcC1GIzYqLUYjNiYtRk42JFEjNDhGJ0YxRlEtSSVtc3VwR0YkNiVGVy1GTjYkUSIzRidGMS8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRidGMS1GLjYtUSgmbWludXM7RidGMUY0RjdGOUY7Rj1GP0ZBRkNGRi1GIzYmLUZONiRRIzg0RidGMUZRLUZgcTYlRlctRk42JFEiMkYnRjFGZXFGMUZnby1GIzYmLUZONiRRIzQyRidGMUZRRldGMUZocS1GTjYkUSMzNkYnRjFGMUZfcC1GWDYlUSQpKihGJ0ZlbkZobkZfcC1GIzYnRi0tRkk2KC1GTjYkUSMzMEYnRjFGam5GXW9GYG9GY29GZW9GaHEtRkk2KEZXLUZONiRRIzUxRidGMUZdb0Zgb0Zjb0Zlb0YxRl9wLUZYNiVRJCkrKEYnRmVuRmhuRl9wLUYjNitGLS1GIzYmLUZONiRRIjRGJ0YxRlFGX3FGMUZocS1GIzYmLUZONiRRIzEwRidGMUZRRmByRjFGZ28tRiM2Ji1GTjYkUSM0NEYnRjFGUUZXRjFGaHFGZHNGMUZfcEZdc0ZfcC1GIzYnRi0tRkk2KC1GTjYkUSM3MUYnRjFGam5GXW9GYG9GY29GZW9GaHEtRkk2KC1GIzYmRmN0RlFGV0YxLUZONiRRIzE3RidGMUZdb0Zgb0Zjb0Zlb0YxRl9wLUZYNiVRIyl+RidGZW5GaG5GMQ==">NiwsJiomIyIlU0AiJCpHIiIiSSJ4RzYiRighIiIjIiU1S0YnRihJIz0oR0YqLCoqJiIjW0YoKUYpIiIkRihGKComIiMlKUYoKUYpIiIjRihGKyomIiNVRihGKUYoRigiI09GK0kkKSooR0YqLCYjIiNJRidGKyomI0YoIiNeRihGKUYoRitJJCkrKEdGKiwqKiYiIiVGKEYyRihGKyomIiM1RihGNkYoRisqJiIjV0YoRilGKEYoRj5GK0Y7LCYjIiNyRidGKyomI0ZFIiM8RihGKUYoRitJIyl+R0Yq</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">1.3. R=Z[i]</Text-field></Title>
+<Group labelreference="L23" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;
+<Font foreground="[51,102,255]">#Algoritmo de euclides</Font>
+decide:=proc(z)
+local r,i,a,b,x,y,w;
+r:=Re(z);
+i:=Im(z);
+a:=floor(r);
+b:=floor(i);
+x:=r-a;
+y:=i-b;
+if 1 &lt;= x+y and x &lt; y then
+w:=a+I*(b+1)
+elif 1 &lt;= x+y and y &lt;= x then
+w:=a+1+I*b
+else
+w:=a+I*b
+fi;
+return w
+end:
+
+mcdzi:=proc(z1,z2)
+local t,r;
+t:=z1;
+r:=z2;
+while r &lt;&gt; 0 do
+t,r:=r,t-r*decide(t/r)
+od;
+return t
+end:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L115" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">mcdzi(5+3*I, 2+I)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFErJnVtaW51czA7MUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJw==">ISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L116" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">mcdzi(2+16*I, 2*I)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW5HRiQ2JFEiMkYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RMSZJbnZpc2libGVUaW1lcztGJ0YvLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y4LyUpc3RyZXRjaHlHRjgvJSpzeW1tZXRyaWNHRjgvJShsYXJnZW9wR0Y4LyUubW92YWJsZWxpbWl0c0dGOC8lJ2FjY2VudEdGOC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkctRiw2JFEtJkltYWdpbmFyeUk7RidGL0Yv">KiYiIiMiIiJeI0YkRiQ=</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">1.4. R=Fp[x]</Text-field></Title>
+<Group labelreference="L7" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+</Input>
+</Group>
+<Group labelreference="L11" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;
+<Font foreground="[51,102,255]">#Algoritmo de euclides</Font>
+mcdfpx:=proc(a::polynom,b::polynom,p::integer,x)
+local dividendo,divisor,resto,resultado;
+dividendo:=a mod p;
+sort(dividendo);
+divisor:=b mod p;
+sort(divisor);
+while degree(divisor,x)&gt;=0 do
+resto:=rem(dividendo,divisor,x) mod p;
+dividendo,divisor:=divisor,resto;
+od;
+resultado:=factor((dividendo*inversofp(lcoeff(dividendo),p)) mod p);
+end:
+
+<Font foreground="[51,102,255]" encoding="UTF-8">#Copio la pr\303\241ctica 4.1</Font>
+inversofp:=proc(a::integer,p::integer)
+local b,n,i,resultado;
+if gcd(p,a)&lt;&gt;1 then 
+print(&quot;No hay inverso&quot;);
+else
+b:=a mod p;
+i:=b;
+for n from 1 to p do
+if i&lt;&gt;1 then
+i:=b*n mod p;
+resultado:=n;
+elif b=1 then
+resultado:=1;
+fi;
+od;
+return resultado;
+fi;
+end:
+
+<Font foreground="[51,102,255]">#Algoritmo de euclides extendido</Font>
+euclidesextfpx:=proc(a::polynom,b::polynom,p::integer,x)
+local f,g,cociente,coeff,coefg,tf,tg,sf,sg,aux1,aux2,aux3;
+if degree (a mod p,x)&lt;degree(b mod p,x) then
+f,g:=b mod p, a mod p;
+else f,g:=a mod p, b mod p;
+fi;
+coeff,coefg:=lcoeff(f) mod p, lcoeff(g) mod p;
+f,g:=f*inversofp(coeff,p) mod p, g*inversofp(coefg,p) mod p;
+tf,tg:=inversofp(coeff,p) mod p,0;
+sf,sg:=0,inversofp(coefg,p) mod p;
+cociente:=quo(f,g,x);
+while degree(cociente,x) mod p &lt;&gt;0 do
+aux1,aux2,aux3:=f-cociente*g mod p, tf-cociente*tg,sf-cociente*tf mod p;
+coeff:=lcoeff(simplify(aux mod p) mod p) mod p;
+f,g:=g,aux1*tf mod p;
+tf,tg:=tg,aux2*inversofp*tf mod p;
+sf,sg:=sg,aux3*tf mod p;
+od;
+print(simplify(g),`=(`,a,`)*(`,simplify(tg),`)+(`,b,`)*(`,simplify(sg),` )`);
+end:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L2431" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">mcdfpx(x^3-1,3*x+1,2,x)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEieEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RJyZwbHVzO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjIyMjIyMjJlbUYnLyUncnNwYWNlR0ZMLUkjbW5HRiQ2JFEiMUYnRjlGOQ==">LCZJInhHNiIiIiJGJUYl</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L2432" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">euclidesextfpx(x^3-1,3*x+1,2,x)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzY2LUYjNiYtSSNtaUdGJDYlUSJ4RicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEnJnBsdXM7RicvRjVRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y/LyUpc3RyZXRjaHlHRj8vJSpzeW1tZXRyaWNHRj8vJShsYXJnZW9wR0Y/LyUubW92YWJsZWxpbWl0c0dGPy8lJ2FjY2VudEdGPy8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRk4tSSNtbkdGJDYkUSIxRidGO0Y7LUY4Ni1RKCZjb21tYTtGJ0Y7Rj0vRkFGM0ZCRkRGRkZIRkovRk1RJjAuMGVtRicvRlBRLDAuMzMzMzMzM2VtRictRi42JVEjPShGJ0YxRjRGVS1GIzYmLUklbXN1cEdGJDYlRi0tRlI2JFEiM0YnRjsvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUY4Ni1RKCZtaW51cztGJ0Y7Rj1GQEZCRkRGRkZIRkpGTEZPRlFGO0ZVLUYuNiVRJCkqKEYnRjFGNEZVLUZSNiRGZG9GO0ZVLUYuNiVRJCkrKEYnRjFGNEZVLUYjNiYtRiM2JkZfby1GODYtUTEmSW52aXNpYmxlVGltZXM7RidGO0Y9RkBGQkZERkZGSEZKRlkvRlBGWkYtRjtGN0ZRRjtGVUZob0ZVRlFGVS1GLjYlUSN+KUYnRjFGNEY7">NiwsJkkieEc2IiIiIkYmRiZJIz0oR0YlLCYqJClGJCIiJEYmRiZGJiEiIkkkKSooR0YlIiIhSSQpKyhHRiUsJiomRitGJkYkRiZGJkYmRiZGLUYmSSN+KUdGJQ==</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">1.5. R=Fq[x] </Text-field></Title>
+<Group labelreference="L19" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;
+<Font foreground="[51,102,255]" encoding="UTF-8">#Copiamos la pr\303\241ctica 4.2</Font>
+inversofq:=proc(f::polynom,p::integer,a) <Font foreground="[51,102,255]">#donde f es un polinomio irreducible en Fp
+</Font>local b,q;
+if gcd(p,a)&lt;&gt;1 then 
+return false;
+else
+q:=p^degree(f);
+b:=a^(q-2);
+return b;
+fi;
+end:
+
+mcdfqx:=proc(a::polynom,b::polynom,f::polynom,p::prime,x) <Font foreground="[51,102,255]">#donde f es un polinomio irreducible en Fp</Font>
+local dividendo,divisor,resto0,resto,resultado;
+dividendo:=rem(a,f,x);
+sort(dividendo);
+divisor:=rem(b,f,x);
+sort(divisor);
+while degree(divisor,x)&gt;=0 do
+resto0:=rem(dividendo,divisor,x);
+resto:=rem(resto0,f,x);
+dividendo,divisor:=divisor,resto;
+od;
+if inversofq(f,p,lcoeff(dividendo))=false then
+print(&quot;no hay mcd&quot;);
+else
+resultado:=factor(((dividendo*inversofq(f,p,lcoeff(dividendo))))/f);
+fi;
+end:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L2433" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">mcdfqx(5*x^3+2*x,3*x+1,x^2-1,2,x)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEqJnVtaW51czA7RicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRkMtSSZtZnJhY0dGJDYoLUkjbW5HRiQ2JFEkMzQzRidGLy1GIzYoLUZKNiRRIzI3RidGLy1GLDYtUTEmSW52aXNpYmxlVGltZXM7RidGL0YyRjVGN0Y5RjtGPUY/L0ZCUSYwLjBlbUYnL0ZFRlYtSShtZmVuY2VkR0YkNiQtRiM2Ji1JI21pR0YkNiVRInhGJy8lJ2l0YWxpY0dRJXRydWVGJy9GMFEnaXRhbGljRictRiw2LVEoJm1pbnVzO0YnRi9GMkY1RjdGOUY7Rj1GP0ZBRkQtRko2JFEiMUYnRi9GL0YvRlItRlk2JC1GIzYmRmduLUYsNi1RJyZwbHVzO0YnRi9GMkY1RjdGOUY7Rj1GP0ZBRkRGY29GL0YvRi8vJS5saW5ldGhpY2tuZXNzR0Zlby8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZhcC8lKWJldmVsbGVkR0Y0Ri8=">LCQqKCMiJFYkIiNGIiIiLCZJInhHNiJGJ0YnISIiRissJkYpRidGJ0YnRitGKw==</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L2434" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">mcdfqx(1,3*x-1,x^2-1,2,x)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkmbWZyYWNHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2KC1JI21uR0YkNiRRIjFGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictSSVtcm93R0YkNiYtSShtZmVuY2VkR0YkNiQtRjM2Ji1JI21pR0YkNiVRInhGJy8lJ2l0YWxpY0dRJXRydWVGJy9GMFEnaXRhbGljRictSSNtb0dGJDYtUSgmbWludXM7RidGLy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGSS8lKXN0cmV0Y2h5R0ZJLyUqc3ltbWV0cmljR0ZJLyUobGFyZ2VvcEdGSS8lLm1vdmFibGVsaW1pdHNHRkkvJSdhY2NlbnRHRkkvJSdsc3BhY2VHUSwwLjIyMjIyMjJlbUYnLyUncnNwYWNlR0ZYRitGL0YvLUZENi1RMSZJbnZpc2libGVUaW1lcztGJ0YvRkdGSkZMRk5GUEZSRlQvRldRJjAuMGVtRicvRlpGaW4tRjY2JC1GMzYmRjotRkQ2LVEnJnBsdXM7RidGL0ZHRkpGTEZORlBGUkZURlZGWUYrRi9GL0YvLyUubGluZXRoaWNrbmVzc0dGLi8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0Zmby8lKWJldmVsbGVkR0ZJ">KiYsJkkieEc2IiIiIkYmISIiRicsJkYkRiZGJkYmRic=</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L2435" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">mcdfqx(4*x^5+3*x,2,x^2-1,2,x)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbXNHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2I1Erbm9+aGF5fm1jZEYn">UStub35oYXl+bWNkNiI=</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Group labelreference="L4" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1">2. Algoritmo para calcular el teorema chino del resto (i.e. calcular el inverso).</Text-field></Title>
+<Group labelreference="L26" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;<Font foreground="[51,102,255]">
+<Font encoding="UTF-8">#Copiamos parte de la pr\303\241ctica 1.1. con alguna modificaci\303\263n.</Font></Font>
+euclidesextz:=proc(a::integer,b::integer) 
+local mcd,resto,coefa,coefb,t,s,cociente,resultado; 
+mcd,resto:=a,b; 
+coefb,coefa:=0,1; 
+t,s:=1,0; 
+while resto&lt;&gt;0 do 
+mcd,resto,cociente:=resto,irem(mcd,resto),iquo(mcd,resto); 
+coefa,s:=s,coefa-cociente*s; 
+coefb,t:=t,coefb-cociente*t; 
+od;
+return([abs(mcd), coefa, coefb])
+end:
+
+chino2:=proc(m::list,n::list) 
+local coef,res; 
+coef:=euclidesextz(n[1],n[2]); 
+res:=coef[2]*m[2]*n[1]+coef[3]*m[1]*n[2]; 
+return res;
+end:
+
+multelemlista:=proc(a::list) 
+local i,p; 
+p:=1; 
+for i to numelems(a) do 
+p:=p*a[i];
+od; 
+return p; 
+end:
+
+<Font foreground="[51,102,255]">#Algoritmo principal</Font>
+chinogeneral:=proc(m::list,n::list)
+local i,a,b;
+a,b:=[],[];
+for i from 1 to numelems(m)-1 do
+a,b:=[op(a),m[i]],[op(a),n[i]];
+od;
+a,b:=multelemlista(a),multelemlista(b);
+return chino2([a,m[numelems(m)]],[b,n[numelems(m)]])
+end:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L96" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">chinogeneral([89,3,4],[3,8,8])</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFElMjEzNkYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJw==">IiVPQA==</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1">3. Mcd en un D.F.U. </Text-field></Title>
+<Group labelreference="L55" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;
+<Font foreground="[51,102,255]" encoding="UTF-8">#Copiamos parte de la pr\303\241ctica 1.1.</Font>
+mcdz:=proc(a::integer,b::integer)
+local dividendo,divisor,resto,resultado;
+dividendo:=abs(a);
+divisor:=abs(b);<Font foreground="[0,128,0]">
+</Font>while divisor&lt;&gt;0 do
+resto:=irem(dividendo,divisor);
+dividendo,divisor:=divisor,resto;
+od;
+resultado:=abs(dividendo);
+end:
+
+<Font foreground="[51,102,255]" encoding="UTF-8">#Copiamos parte de la pr\303\241ctica 1.2.</Font><Font foreground="[0,128,0]">
+</Font>mcdqx:=proc(a::polynom,b::polynom,x)
+local dividendo,divisor,resto,resultado;
+dividendo:=a;
+sort(dividendo);
+divisor:=b;
+sort(divisor);
+while degree(divisor,x)&gt;=0 do
+resto:=rem(dividendo,divisor,x);
+dividendo,divisor:=divisor,resto;
+od;
+resultado:=factor(dividendo/lcoeff(dividendo));
+end:<Font foreground="[0,128,0]">
+</Font>
+<Font foreground="[51,102,255]">#mcd en Z[x]: mcdzx(a,b)=mcdz(cont(a),cont(b))*mcdqx(pp(a),pp(b))</Font><Font foreground="[0,128,0]">
+</Font>mcdzx:=proc(a::polynom,b::polynom,x)
+local conta,contb,ppa,ppb,mcd1,mcd2,resultado;
+conta,contb:=content(a),content(b); <Font foreground="[51,102,255]" encoding="UTF-8">#content() devuelve entero factor com\303\272n</Font>
+ppa,ppb:=a/conta,b/contb;<Font foreground="[51,102,255]" encoding="UTF-8">#quitamos factor com\303\272n</Font>
+mcd1:=mcdz(conta,contb);<Font foreground="[51,102,255]">#mcd en Z</Font>
+mcd2:=mcdqx(ppa,ppb,x);<Font foreground="[51,102,255]">#mcd en Q[x]
+</Font>resultado:=mcd1*mcd2;
+end:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L2386" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">mcdzx(48*x^3-84*x^2+42*x-36,-4*x^3-10*x^2+44*x-30,x)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUYjNiYtSSNtbkdGJDYkUSIyRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUkjbW9HRiQ2LVExJkludmlzaWJsZVRpbWVzO0YnRjEvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRjovJSlzdHJldGNoeUdGOi8lKnN5bW1ldHJpY0dGOi8lKGxhcmdlb3BHRjovJS5tb3ZhYmxlbGltaXRzR0Y6LyUnYWNjZW50R0Y6LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGSS1JI21pR0YkNiVRInhGJy8lJ2l0YWxpY0dRJXRydWVGJy9GMlEnaXRhbGljRidGMS1GNTYtUSgmbWludXM7RidGMUY4RjtGPUY/RkFGQ0ZFL0ZIUSwwLjIyMjIyMjJlbUYnL0ZLRlktRi42JFEiM0YnRjFGMQ==">LCYqJiIiIyIiIkkieEc2IkYlRiUiIiQhIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L27" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1">4. Inverso de un elemento en un cuerpo finito.</Text-field></Title>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">4.1. Inverso en Fp.</Text-field></Title><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L2459" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L2460" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;
+
+inversofp:=proc(a::integer,p::integer)
+local b,n,i,resultado;
+if gcd(p,a)&lt;&gt;1 then 
+print(&quot;No hay inverso&quot;);
+else
+b:=a mod p;
+i:=b;
+for n from 1 to p do
+if i&lt;&gt;1 then
+i:=b*n mod p;
+resultado:=n;
+elif b=1 then
+resultado:=1;
+fi;
+od;
+return resultado;
+fi;
+end:</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L2463" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">inversofp(20,3)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEiMkYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJw==">IiIj</Equation></Text-field>
+</Output>
+</Group></Presentation-Block>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">4.2. Inverso en Fq.</Text-field></Title><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L2461" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L2462" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;
+
+inversofq:=proc(f::polynom,p::prime,a) <Font foreground="[51,102,255]">#donde f es un polinomio irreducible
+</Font>local b,q;
+if gcd(p,a)&lt;&gt;1 then
+print(&quot;No hay inverso&quot;);
+else
+q:=p^degree(f);
+b:=a^(q-2);
+return b;
+fi;
+end:</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L2464" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">inversofq(x^2-1,2,4)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbXNHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2I1EvTm9+aGF5fmludmVyc29GJw==">US9Ob35oYXl+aW52ZXJzbzYi</Equation></Text-field>
+</Output>
+</Group>
+<Group view="code" hide-input="false" labelreference="L2465" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">inversofq(x^2-1,2,5)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEjMjVGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">IiNE</Equation></Text-field>
+</Output>
+</Group></Presentation-Block>
+</Section>
+<Group labelreference="L28" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1">5. Test de irreducibilidad de un poliomio en Fq[x].</Text-field></Title>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">5.1. Test de irreducibilidad en Fp[x].</Text-field></Title><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L2438" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L2439" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;
+<Font foreground="[51,102,255]" encoding="UTF-8">#Copiamos la pr\303\241ctica 1.4 </Font>
+mcdfpx:=proc(a::polynom,b::polynom,x,p::integer)
+local dividendo,divisor,resto,resultado;
+dividendo:=a mod p;
+sort(dividendo);
+divisor:=b mod p;
+sort(divisor);
+while degree(divisor,x)&gt;=0 do
+resto:=rem(dividendo,divisor,x) mod p;
+dividendo,divisor:=divisor,resto;
+od;
+resultado:=factor((dividendo*inversofp(lcoeff(dividendo),p)) mod p);
+end:
+
+inversofp:=proc(a::integer,p::integer)
+local b,n,i,resultado;
+if gcd(p,a)&lt;&gt;1 then 
+print(&quot;No hay inverso&quot;);
+else
+b:=a mod p;
+i:=b;
+for n from 1 to p do
+if i&lt;&gt;1 then
+i:=b*n mod p;
+resultado:=n;
+elif b=1 then
+resultado:=1;
+fi;
+od;
+return resultado;
+fi;
+end:
+
+<Font foreground="[51,102,255]">#Test de irreducibilidad en Fp[x]</Font>
+testirreducibilidadfpx:=proc(f::polynom,x,p::prime)
+local i, m, d, r, esirreducible; 
+m:=x; 
+d:=degree(f); 
+esirreducible:=true;
+i:=1;
+while i&lt;floor(d/2) and esirreducible do 
+m:=rem(m^p, f, x) mod p; 
+r:=mcdfpx(f, m-x, x, p);
+if r &lt;&gt; 1 then 
+esirreducible:=false;
+fi;
+i:=i+1;
+od; 
+return esirreducible;
+end:</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L2440" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">testirreducibilidadfpx(2*x^3-3*x,x,7)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVEldHJ1ZUYnLyUnaXRhbGljR0YrLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJw==">SSV0cnVlRyUqcHJvdGVjdGVkRw==</Equation></Text-field>
+</Output>
+</Group>
+<Group view="code" hide-input="false" labelreference="L2441" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">testirreducibilidadfpx((x^5)+3*(x^4)+(x^3)+(x^2)+2*x+2,x,5)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVEmZmFsc2VGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRic=">SSZmYWxzZUclKnByb3RlY3RlZEc=</Equation></Text-field>
+</Output>
+</Group>
+<Group view="code" hide-input="false" labelreference="L2442" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">testirreducibilidadfpx(x^2-1,x,2)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVEldHJ1ZUYnLyUnaXRhbGljR0YrLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJw==">SSV0cnVlRyUqcHJvdGVjdGVkRw==</Equation></Text-field>
+</Output>
+</Group></Presentation-Block>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">5.2. Test de irreducibilidad en Fq[x]. </Text-field></Title><Presentation-Block>
+<Group view="code" labelreference="L2449" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;
+<Font foreground="[51,102,255]" encoding="UTF-8">#Copiamos la pr\303\241ctica 1.5</Font>
+inversofq:=proc(f::polynom,p::integer,a) <Font foreground="[51,102,255]">#donde f es un polinomio irreducible en Fp
+</Font>local b,q;
+if gcd(p,a)&lt;&gt;1 then 
+return false;
+else
+q:=p^degree(f);
+b:=a^(q-2);
+return b;
+fi;
+end:
+
+mcdfqx:=proc(a::polynom,b::polynom,f::polynom,p::prime,x) <Font foreground="[51,102,255]">#donde f es un polinomio irreducible en Fp</Font>
+local dividendo,divisor,resto0,resto,resultado;
+dividendo:=rem(a,f,x);
+sort(dividendo);
+divisor:=rem(b,f,x);
+sort(divisor);
+while degree(divisor,x)&gt;=0 do
+resto0:=rem(dividendo,divisor,x);
+resto:=rem(resto0,f,x);
+dividendo,divisor:=divisor,resto;
+od;
+if inversofq(f,p,lcoeff(dividendo))=false then
+print(&quot;no hay mcd&quot;);
+else
+resultado:=factor(((dividendo*inversofq(f,p,lcoeff(dividendo))))/f);
+fi;
+end:
+
+<Font foreground="[51,102,255]">#Test de irreducibilidad en Fq[x]</Font>
+testirreducibilidadfqx:=proc(a::polynom,f::polynom,x,p::prime) <Font foreground="[51,102,255]">#donde f es irreducible</Font>
+local i, m, d, r, esirreducible; 
+m:=x; 
+d:=degree(a); 
+esirreducible:=true;
+i:=1;
+while i&lt;floor(d/2) and esirreducible do 
+m:=rem(rem(m^p, a, x),f,x); 
+r:=mcdfqx(a, m-x, f,p,x);
+if r &lt;&gt; 1 then 
+esirreducible:=false;
+fi;
+i:=i+1;
+od; 
+return esirreducible;
+end:</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L2450" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">testirreducibilidadfqx(3*x^2+3,x^2-1,x,3)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVEldHJ1ZUYnLyUnaXRhbGljR0YrLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJw==">SSV0cnVlRyUqcHJvdGVjdGVkRw==</Equation></Text-field>
+</Output>
+</Group>
+<Group view="code" hide-input="false" labelreference="L2451" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">testirreducibilidadfqx(x^7+5*x^4+17,2*x^3-3*x,x,7)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVEmZmFsc2VGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRic=">SSZmYWxzZUclKnByb3RlY3RlZEc=</Equation></Text-field>
+</Output>
+</Group></Presentation-Block>
+</Section>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1">6. Logaritmo discreto en cuerpos finitos.</Text-field></Title>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">6.1. Logaritmo discreto en Fp.</Text-field></Title>
+<Group labelreference="L2453" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;<Font foreground="[51,102,255]">
+<Font encoding="UTF-8">#Copiamos la pr\303\241ctica 4.1</Font></Font>
+inversofp:=proc(a::integer,p::integer)
+local b,n,i,resultado;
+if gcd(p,a)&lt;&gt;1 then 
+print(&quot;No hay inverso&quot;);
+else
+b:=a mod p;
+i:=b;
+for n from 1 to p do
+if i&lt;&gt;1 then
+i:=b*n mod p;
+resultado:=n;
+elif b=1 then
+resultado:=1;
+fi;
+od;
+return resultado;
+fi;
+end:
+
+<Font foreground="[51,102,255]">#logaritmo discreto en Fp</Font>
+babystepgiantstepfp:=proc(p::prime,a::integer,b::integer) <Font foreground="[51,102,255]">#nos devuelve x tal que a elevado a x sea mod p</Font>
+local m,j,L,beta,i;
+m:=ceil(evalf(sqrt(p-1))); <Font foreground="[51,102,255]" encoding="UTF-8">#ceil es la funci\303\263n techo, devuelve el m\303\255nimo n\303\272mero entero no inferior del n\303\272mero al que se aplica</Font>
+L:=[];
+beta:=[];
+if a=b mod p then
+return 0;
+fi;
+L:=[op(L),1];
+beta:=[op(beta),b mod p];
+for j from 1 to m do
+L:=[op(L),a^((j)*m) mod p];
+beta:=[op(beta),b*(inversofp(a,37)^j) mod p];
+od;
+for i from 1 to m do
+for j from 1 to m do
+if beta[i]=L[j] then
+return (j-1)*m+(i-1);
+fi;
+od;
+od;
+end:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L2454" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">babystepgiantstepfp(37,5,13)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEjMTNGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">IiM4</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">6.2. Logaritmo discreto en Fq[x].(revisar)</Text-field></Title><Presentation-Block>
+<Group view="code" labelreference="L2458" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;
+
+<Font foreground="[51,102,255]" encoding="UTF-8">#Copiamos la pr\303\241ctica 4.2</Font>
+inversofq:=proc(f::polynom,p::prime,a) <Font foreground="[51,102,255]">#donde f es un polinomio irreducible
+</Font>local b,q;
+if gcd(p,a)&lt;&gt;1 then
+print(&quot;No hay inverso&quot;);
+else
+q:=p^degree(f);
+b:=a^(q-2);
+return b;
+fi;
+end:
+
+babystepgiantstepfq:=proc(f::polynom,a::polynom,b::polynom,p::prime,x) <Font foreground="[51,102,255]">#nos devuelve x tal que a elevado a x sea b en Fp[x]/f(x), si no existe devuelve imposible</Font>
+local m,j,L,beta,i;
+m:=ceil(evalf(sqrt(p-1))); <Font foreground="[51,102,255]" encoding="UTF-8">#ceil es la funci\303\263n techo, devuelve el m\303\255nimo n\303\272mero entero no inferior del n\303\272mero al que se aplica</Font>
+L:=[];
+beta:=[];
+if a=rem(b,f,x) then
+return 0;
+fi;
+L:=[op(L),1];
+beta:=[op(beta),rem(b,f,x)];
+for j from 1 to m do
+L:=[op(L),rem(a^((j)*m),f,x)];
+beta:=[op(beta),rem(b*(inversofq(f,p,a)^j),f,x)];
+od;
+for i from 1 to m do
+for j from 1 to m do
+if beta[i]=L[j] then
+return (j-1)*m+(i-1);
+fi;
+if i=m and j=m and beta[m]&lt;&gt;L[m] then
+return 'imposible'
+fi;
+od;
+od;
+end:
+</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L2466" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">babystepgiantstepfq(x^2-1,x+4,x+5,2,x)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVEqaW1wb3NpYmxlRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0Yn">SSppbXBvc2libGVHNiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group view="code" hide-input="false" labelreference="L2467" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">babystepgiantstepfq(2*x^3-3*x,x^2+3,x^3+1,7,x)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVEqaW1wb3NpYmxlRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0Yn">SSppbXBvc2libGVHNiI=</Equation></Text-field>
+</Output>
+</Group></Presentation-Block>
+</Section>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1"><Font encoding="UTF-8">7. Algoritmo de factorizaci\303\263n de un polinomio en cuerpo finito parte 1, 2 y 3.</Font></Text-field></Title>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">7.1. Libre de cuadrados.</Text-field></Title>
+<Group labelreference="L2420" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;<Font foreground="[51,102,255]">
+<Font encoding="UTF-8">#Copiamos la pr\303\241ctica 1.5 con alguna modificaci\303\263n</Font></Font>
+mcdzpx:=proc(a::polynom,b::polynom,p::integer,x)
+local dividendo,divisor,resto,resultado;
+dividendo:=a mod p;
+sort(dividendo);
+divisor:=b mod p;
+sort(divisor);
+while degree(divisor,x)&gt;=0 do
+resto:=rem(dividendo,divisor,x) mod p;
+dividendo,divisor:=divisor,resto;
+od;
+resultado:=factor((dividendo*inverso(lcoeff(dividendo),p)) mod p);
+end:
+
+<Font foreground="[51,102,255]" encoding="UTF-8">#Copiamos la pr\303\241ctica 4</Font>
+inverso:=proc(a::integer,p::integer)
+local b,n,i,resultado;
+if gcd(p,a)&lt;&gt;1 then 
+print(&quot;No hay inverso&quot;);
+else
+b:=a mod p;
+i:=b;
+for n from 1 to p do
+if i&lt;&gt;1 then
+i:=b*n mod p;
+resultado:=n;
+elif b=1 then
+resultado:=1;
+fi;
+od;
+return resultado;
+fi;
+end:
+<Font foreground="[51,102,255]">#Creamos un algoritmo que nos pase los polinomios a vector (aux)
+</Font>PasoPolinomioAVector:=proc(p::integer,pol::polynom) 
+local f,g,L; 
+L:=[]; 
+f:=`mod`(expand(pol),p); 
+while f &lt;&gt; 0 do 
+L:=[op(L),[lcoeff(f,x),degree(f,x)]]; 
+f:=expand(f-lcoeff(f,x)*x^degree(f,x)) 
+od; 
+L; 
+end:
+
+<Font foreground="[51,102,255]">#Creamos un polinomio g a partir de uno dado y una lista (aux)</Font>
+CreaElPolinomiog:=proc(p::integer,f::polynom,L::list) 
+local g,a,b,i; 
+g:=0; 
+for i to nops(L) do 
+a:=L[i][1]; 
+b:=L[i][2]/p; 
+g:=g+a*x^b 
+od; 
+g;
+end:
+
+<Font foreground="[51,102,255]">#Algoritmo principal</Font>
+LibreCuadrados:=proc(polmonico::polynom,p::integer,x) 
+local f,L,s,j,g,maxcd,h,m; 
+f:=expand(polmonico); 
+L:=[]; 
+s:=1; 
+while f&lt;&gt;1 do 
+j:=1; 
+maxcd:=mcdzpx(f,expand(diff(f,x)),p,x); 
+g:=quo(f, maxcd, x) mod p; 
+while g &lt;&gt; 1 do 
+f:=quo(f,g,x) mod p; 
+h:=mcdzpx(f,expand(g),p,x); 
+m:=quo(g, h, x) mod p; 
+if m &lt;&gt; 1 then 
+L:=[op(L), [m, j*s]] 
+fi; 
+g:=h; 
+j:=j+1 
+od; 
+if f &lt;&gt; 1 then 
+f:=CreaElPolinomiog(p, f, PasoPolinomioAVector(p, f)); 
+s:=p*s 
+fi; 
+od; 
+L;
+end:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L2421" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">LibreCuadrados(x^5+7*x^4+3*x^2+x+3,19,x)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUYjNiYtSSVtcm93R0YkNigtRi42LC1JJW1zdXBHRiQ2JS1JI21pR0YkNiVRInhGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtbkdGJDYkUSI1RicvRj1RJ25vcm1hbEYnLyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1JI21vR0YkNi1RJyZwbHVzO0YnRkMvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRk4vJSlzdHJldGNoeUdGTi8lKnN5bW1ldHJpY0dGTi8lKGxhcmdlb3BHRk4vJS5tb3ZhYmxlbGltaXRzR0ZOLyUnYWNjZW50R0ZOLyUnbHNwYWNlR1EsMC4yMjIyMjIyZW1GJy8lJ3JzcGFjZUdGZ24tRi42Ji1GQDYkUSI3RidGQy1GSTYtUTEmSW52aXNpYmxlVGltZXM7RidGQ0ZMRk9GUUZTRlVGV0ZZL0ZmblEmMC4wZW1GJy9GaW5GY28tRjM2JUY1LUZANiRRIjRGJ0ZDRkVGQ0ZILUYuNiYtRkA2JFEiM0YnRkNGX28tRjM2JUY1LUZANiRRIjJGJ0ZDRkVGQ0ZIRjVGSEZccEZDLUZJNi1RIixGJ0ZDRkwvRlBGO0ZRRlNGVUZXRllGYm8vRmluUSwwLjMzMzMzMzNlbUYnLUZANiRRIjFGJ0ZDLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0ZORkNGQy8lJW9wZW5HUScmbHNxYjtGJy8lJmNsb3NlR1EnJnJzcWI7RidGQ0ZicUZlcQ==">NyM3JCwsKiQpSSJ4RzYiIiImIiIiIiIiKiYiIigiIiIpSSJ4RzYiIiIlIiIiIiIiKiYiIiQiIiIpSSJ4RzYiIiIjIiIiIiIiSSJ4RzYiIiIiIiIkIiIiIiIi</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L2422" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">LibreCuadrados((x^2+1)^3*(x^4-8)^2*(x+2),3,x)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYqLUYjNiYtRiw2KC1GLDYmLUkjbWlHRiQ2JVEieEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RJyZwbHVzO0YnL0Y8USdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGRi8lKXN0cmV0Y2h5R0ZGLyUqc3ltbWV0cmljR0ZGLyUobGFyZ2VvcEdGRi8lLm1vdmFibGVsaW1pdHNHRkYvJSdhY2NlbnRHRkYvJSdsc3BhY2VHUSwwLjIyMjIyMjJlbUYnLyUncnNwYWNlR0ZVLUkjbW5HRiQ2JFEiMkYnRkJGQi1GPzYtUSIsRidGQkZEL0ZIRjpGSUZLRk1GT0ZRL0ZUUSYwLjBlbUYnL0ZXUSwwLjMzMzMzMzNlbUYnLUZZNiRRIjFGJ0ZCLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0ZGRkJGQi8lJW9wZW5HUScmbHNxYjtGJy8lJmNsb3NlR1EnJnJzcWI7RidGZm4tRiM2Ji1GLDYoLUYsNiYtSSVtc3VwR0YkNiVGNC1GWTYkUSI0RidGQi8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRidGPkZeb0ZCRmZuRlhGYW9GZG9GQkZCRmZvRmlvRmZuLUYjNiYtRiw2KC1GLDYmLUZjcDYlRjRGWEZocEY+Rl5vRkJGZm4tRlk2JFEiM0YnRkJGYW9GZG9GQkZCRmZvRmlvRmFvRmRvRkJGQkZmb0Zpbw==">NyU3JCwmSSJ4RzYiIiIiIiIjRidGJzckLCYqJClGJSIiJUYnRidGJ0YnRig3JCwmKiQpRiVGKEYnRidGJ0YnIiIk</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2"><Font encoding="UTF-8">7.2. Factorizaci\303\263n en igual grado.</Font></Text-field></Title>
+<Group labelreference="L2423" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;
+with(RandomTools):
+<Font foreground="[51,102,255]" encoding="UTF-8">#Copiamos la pr\303\241ctica 1.5 con alguna modificaci\303\263n</Font>
+mcdzpx:=proc(a::polynom,b::polynom,p::integer,x)
+local dividendo,divisor,resto,resultado;
+dividendo:=a mod p;
+sort(dividendo);
+divisor:=b mod p;
+sort(divisor);
+while degree(divisor,x)&gt;=0 do
+resto:=rem(dividendo,divisor,x) mod p;
+dividendo,divisor:=divisor,resto;
+od;
+resultado:=factor((dividendo*inverso(lcoeff(dividendo),p)) mod p);
+end:
+
+<Font foreground="[51,102,255]" encoding="UTF-8">#Copiamos la pr\303\241ctica 4</Font>
+inverso:=proc(a::integer,p::integer)
+local b,n,i,resultado;
+if gcd(p,a)&lt;&gt;1 then 
+print(&quot;No hay inverso&quot;);
+else
+b:=a mod p;
+i:=b;
+for n from 1 to p do
+if i&lt;&gt;1 then
+i:=b*n mod p;
+resultado:=n;
+elif b=1 then
+resultado:=1;
+fi;
+od;
+return resultado;
+fi;
+end:
+
+Mkalfa := proc (p, f, k, alfa) 
+local M, j, expte, d; 
+if p = 2 then 
+M := alfa; 
+for j to k-1 do 
+expte := 2^j; 
+M := M+alfa^expte; 
+M :=rem(M, f, x) mod p; 
+od;
+else 
+M := 1; 
+expte := (p^k-1)*(0.5); 
+for j to expte do 
+M := expand(M*alfa); 
+M :=rem(M, f, x) mod p;
+od; 
+M :=expand(M-1) mod p;
+fi; 
+M; 
+end:
+ 
+<Font foreground="[51,102,255]">#Algoritmo principal</Font>
+FactorizacionIgualGrado := proc (p::integer,pol::polynom,k::integer) 
+local f,H,l,H1,i,r,aleat,alfa,repMkalfa,h,d; 
+f:=pol; 
+H:=[f]; 
+l:=degree(f, x); 
+r:=l/k; 
+while nops(H) &lt; r do 
+H1:=[]; 
+for i to nops(H) do 
+h:=H[i]; 
+alfa:=Generate(polynom(integer, x, degree=(degree(h)-1))) mod p; 
+repMkalfa:=rem(Mkalfa(p, f, k, alfa), f, x) mod p; 
+d:=mcdzpx[X](repMkalfa,(expand(h) mod p),p,x); 
+if d=1 or d=h then 
+H1:=[op(H1),h];
+else 
+H1:=[op(H1),d]; 
+H1:=[op(H1),expand(quo(h, d, x)) mod p]; 
+fi; 
+od; 
+H:=H1; 
+od; 
+H;
+end:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L2424" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">FactorizacionIgualGrado(17, x^3+11*x^2+13*x, 1)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYqLUYsNiYtSSNtaUdGJDYlUSJ4RicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEnJnBsdXM7RicvRjhRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0ZCLyUpc3RyZXRjaHlHRkIvJSpzeW1tZXRyaWNHRkIvJShsYXJnZW9wR0ZCLyUubW92YWJsZWxpbWl0c0dGQi8lJ2FjY2VudEdGQi8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRlEtSSNtbkdGJDYkUSI2RidGPkY+LUY7Ni1RIixGJ0Y+RkAvRkRGNkZFRkdGSUZLRk0vRlBRJjAuMGVtRicvRlNRLDAuMzMzMzMzM2VtRidGMEZYLUYsNiZGMEY6LUZVNiRRIjVGJ0Y+Rj4vJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRkJGPkY+LyUlb3BlbkdRJyZsc3FiO0YnLyUmY2xvc2VHUScmcnNxYjtGJw==">NyUsJkkieEc2IiIiIiIiJ0YmRiQsJkYkRiYiIiZGJg==</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L2425" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">FactorizacionIgualGrado(3,x^5+4*x,2)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYqLUkjbWlHRiQ2JVEieEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIixGJy9GNlEnbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRjQvJSlzdHJldGNoeUdGQC8lKnN5bW1ldHJpY0dGQC8lKGxhcmdlb3BHRkAvJS5tb3ZhYmxlbGltaXRzR0ZALyUnYWNjZW50R0ZALyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictRiw2KC1JJW1zdXBHRiQ2JUYuLUkjbW5HRiQ2JFEiMkYnRjwvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUY5Ni1RJyZwbHVzO0YnRjxGPi9GQkZARkNGRUZHRklGSy9GTlEsMC4yMjIyMjIyZW1GJy9GUUZeby1GLDYmRlgtRjk2LVExJkludmlzaWJsZVRpbWVzO0YnRjxGPkZcb0ZDRkVGR0ZJRktGTS9GUUZPRi5GPEZpbkZYRjxGOC1GLDYoRlVGaW5GLkZpbkZYRjwvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRkBGPEY8LyUlb3BlbkdRJyZsc3FiO0YnLyUmY2xvc2VHUScmcnNxYjtGJw==">NyVJInhHNiIsKCokKUYjIiIjIiIiRikqJkYoRilGI0YpRilGKEYpLChGJkYpRiNGKUYoRik=</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">7.3.<Font encoding="UTF-8"> Factorizaci\303\263n en distinto grado.</Font></Text-field></Title>
+<Group labelreference="L2428" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;<Font foreground="[51,102,255]">
+<Font encoding="UTF-8">#Copiamos la pr\303\241ctica 1.5 con alguna modificaci\303\263n</Font></Font>
+inverso:=proc(a::integer,p::integer)
+local b,n,i,resultado;
+if gcd(p,a)&lt;&gt;1 then 
+print(&quot;No hay inverso&quot;);
+else
+b:=a mod p;
+i:=b;
+for n from 1 to p do
+if i&lt;&gt;1 then
+i:=b*n mod p;
+resultado:=n;
+elif b=1 then
+resultado:=1;
+fi;
+od;
+return resultado;
+fi;
+end:
+
+<Font foreground="[51,102,255]" encoding="UTF-8">#Copiamos la pr\303\241ctica 4</Font>
+mcdzpx:=proc(a::polynom,b::polynom,p::integer,x)
+local dividendo,divisor,resto,resultado;
+dividendo:=a mod p;
+sort(dividendo);
+divisor:=b mod p;
+sort(divisor);
+while degree(divisor,x)&gt;=0 do
+resto:=rem(dividendo,divisor,x) mod p;
+dividendo,divisor:=divisor,resto;
+od;
+resultado:=factor((dividendo*inverso(lcoeff(dividendo),p)) mod p);
+end:
+
+<Font foreground="[51,102,255]">#Algoritmo principal</Font>
+FactorizacionDistintoGrado:=proc(p::prime,f::polynom)<Font foreground="[51,102,255]">#f tiene que ser un polinomio libre de cuadrados</Font>
+local g,factores,r,restos,n,h,i; 
+g:=f; 
+factores:=[]; 
+r:=rem(x, g, x) mod p; 
+n:=0; 
+while degree(g, x) &lt;&gt; 0 do 
+restos:=1; 
+for i to p do 
+restos:=restos*r;
+od; 
+r:=rem(restos, g, x) mod p; 
+n:=n+1; 
+h:=mcdzpx(g,(expand(r-x) mod p),p,x) mod p; 
+if h &lt;&gt; 1 then 
+factores:=[op(factores),[h,n]]; 
+g:=quo(g,h,x) mod p; 
+r:=rem(r,g,x) mod p; 
+fi; 
+od; 
+factores; 
+end:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L2429" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">FactorizacionDistintoGrado(11, x^15+x-1)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYoLUYjNiYtRiw2KC1GLDYmLUkjbWlHRiQ2JVEieEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RJyZwbHVzO0YnL0Y8USdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGRi8lKXN0cmV0Y2h5R0ZGLyUqc3ltbWV0cmljR0ZGLyUobGFyZ2VvcEdGRi8lLm1vdmFibGVsaW1pdHNHRkYvJSdhY2NlbnRHRkYvJSdsc3BhY2VHUSwwLjIyMjIyMjJlbUYnLyUncnNwYWNlR0ZVLUkjbW5HRiQ2JFEiOUYnRkJGQi1GPzYtUSIsRidGQkZEL0ZIRjpGSUZLRk1GT0ZRL0ZUUSYwLjBlbUYnL0ZXUSwwLjMzMzMzMzNlbUYnLUZZNiRRIjFGJ0ZCLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0ZGRkJGQi8lJW9wZW5HUScmbHNxYjtGJy8lJmNsb3NlR1EnJnJzcWI7RidGZm4tRiM2Ji1GLDYoLUYsNkAtSSVtc3VwR0YkNiVGNC1GWTYkUSMxNEYnRkIvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnRj4tRiw2Ji1GWTYkUSIyRidGQi1GPzYtUTEmSW52aXNpYmxlVGltZXM7RidGQkZERkdGSUZLRk1GT0ZRRmpuL0ZXRltvLUZjcDYlRjQtRlk2JFEjMTNGJ0ZCRmhwRkJGPi1GLDYmLUZZNiRRIjRGJ0ZCRmBxLUZjcDYlRjQtRlk2JFEjMTJGJ0ZCRmhwRkJGPi1GLDYmLUZZNiRRIjhGJ0ZCRmBxLUZjcDYlRjQtRlk2JFEjMTFGJ0ZCRmhwRkJGPi1GLDYmLUZZNiRRIjVGJ0ZCRmBxLUZjcDYlRjQtRlk2JFEjMTBGJ0ZCRmhwRkJGPi1GLDYmRmRzRmBxLUZjcDYlRjRGWEZocEZCRj4tRiw2JkZYRmBxLUZjcDYlRjRGZXJGaHBGQkY+LUYsNiYtRlk2JFEiN0YnRkJGYHEtRmNwNiVGNEZhdEZocEZCRj4tRiw2Ji1GWTYkUSIzRidGQkZgcS1GY3A2JUY0LUZZNiRRIjZGJ0ZCRmhwRkJGPi1GLDYmRl11RmBxLUZjcDYlRjRGX3NGaHBGQkY+LUZjcDYlRjRGW3JGaHBGPi1GLDYmRl1xRmBxLUZjcDYlRjRGaHRGaHBGQkY+LUYsNiZGW3JGYHEtRmNwNiVGNEZdcUZocEZCRj4tRiw2JkZlckZgcUY0RkJGPkZddUZCRmZuRmVwRmFvRmRvRkJGQkZmb0Zpb0Zhb0Zkb0ZCRkJGZm9GaW8=">NyQ3JCwmSSJ4RzYiIiIiIiIqRidGJzckLEAqJClGJSIjOUYnRicqJiIiI0YnKUYlIiM4RidGJyomIiIlRicpRiUiIzdGJ0YnKiYiIilGJylGJSIjNkYnRicqJiIiJkYnKUYlIiM1RidGJyomRj1GJylGJUYoRidGJyomRihGJylGJUY3RidGJyomIiIoRicpRiVGQ0YnRicqJiIiJEYnKUYlIiInRidGJyomRkhGJylGJUY7RidGJyokKUYlRjNGJ0YnKiZGL0YnKUYlRkZGJ0YnKiZGM0YnKUYlRi9GJ0YnKiZGN0YnRiVGJ0YnRkhGJ0Yt</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L2430" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">FactorizacionDistintoGrado(23,(x^2+3)*(3*x^3-1))</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYoLUYjNiYtRiw2KC1GLDYmLUkjbWlHRiQ2JVEieEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RJyZwbHVzO0YnL0Y8USdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGRi8lKXN0cmV0Y2h5R0ZGLyUqc3ltbWV0cmljR0ZGLyUobGFyZ2VvcEdGRi8lLm1vdmFibGVsaW1pdHNHRkYvJSdhY2NlbnRHRkYvJSdsc3BhY2VHUSwwLjIyMjIyMjJlbUYnLyUncnNwYWNlR0ZVLUkjbW5HRiQ2JFEjMjFGJ0ZCRkItRj82LVEiLEYnRkJGRC9GSEY6RklGS0ZNRk9GUS9GVFEmMC4wZW1GJy9GV1EsMC4zMzMzMzMzZW1GJy1GWTYkUSIxRidGQi8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGRkZCRkIvJSVvcGVuR1EnJmxzcWI7RicvJSZjbG9zZUdRJyZyc3FiO0YnRmZuLUYjNiYtRiw2KC1GLDYmLUYjNiQtRiw2Ji1JJW1zdXBHRiQ2JUY0LUZZNiRRIjJGJ0ZCLyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0Y+LUZZNiRRIjNGJ0ZCRkJGQi1GPzYtUTEmSW52aXNpYmxlVGltZXM7RidGQkZERkdGSUZLRk1GT0ZRRmpuL0ZXRltvLUYjNiQtRiw2KEZmcEY+LUYsNiZGaXBGYnFGNEZCRj4tRlk2JFEiNEYnRkJGQkZCRkJGZm5GaXBGYW9GZG9GQkZCRmZvRmlvRmFvRmRvRkJGQkZmb0Zpbw==">NyQ3JCwmSSJ4RzYiIiIiIiNARidGJzckKiYsJiokKUYlIiIjRidGJyIiJEYnRicsKEYsRicqJkYuRidGJUYnRiciIiVGJ0YnRi4=</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1">8. Algoritmo de factorizacion de Berlekamp en cuerpos finitos.</Text-field></Title>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">En Fp.</Text-field></Title><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L2468" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L2469" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;
+with(linalg):
+
+introducirfila:=proc(A,posicion::integer,filanueva::array) <Font foreground="[51,102,255]">#cambia la fila posicion por filanueva</Font>
+local j,n;
+n:=coldim(A);
+for j from 1 to n do
+A[posicion,j]:=filanueva[j];
+return A;
+od;
+end:
+
+construirphifp:=proc(f::polynom,p::prime,x) <Font foreground="[51,102,255]">#construye la matriz 'phi' que se utiliza en el algoritmo de Berlkamp</Font>
+local A,phi,n,i,j,r,m,rn,l;
+n:=degree(f);
+phi:=Matrix(n);
+A:=array(1..n+1);
+for i from 1 to n+1 do
+A[i]:=coeff(f,x,i-1);
+od;
+r:=array(1..n);
+r[1]:=1;
+for i from 2 to n do
+r[i]:=0;
+od;
+introducirfila(phi,1,r);
+for m from 1 to (n-1)*p do
+rn:=r[n];
+l:=array(1..n);
+l[1]:=mods(-rn*A[1],p);
+for i from 2 to n do 
+l[i]:=mods(r[i-1]-mods(rn*A[i],p),p);
+od;
+for j from 1 to n do
+r[j]:=l[j];
+od;
+if irem(m,p)=0 then
+introducirfila(phi,iquo(m,p)+1,r);
+fi;
+od;
+return phi;
+end:
+
+<Font foreground="[51,102,255]">#Algoritmo principal</Font>
+berlekampfp:=proc(f::polynom,p::prime,x) 
+local phi,rg,n,i,j,c,k,s,g,W,factors,sigue,fact;
+phi:=construirphifp(f,p,x);
+rg:=rank(phi);
+n:=degree(f);
+for i from 1 to n do
+phi[i,i]:=phi[i,i]-1;
+od; 
+W:=array(1..rg);
+for i from 1 to rg do
+for j from 1 to n do
+W[i]:=x^(j-1)+W[i];
+od;
+od;
+factors:=array(1..rg);
+c:=f;
+k:=1;
+i:=1;
+while k&lt;&gt;rg do
+i:=i+1;
+s:=0;
+sigue:=true;
+while s&lt;=(p-1) and sigue do
+g:=mods(Gcd(W[i-s],c),p);
+if g&lt;&gt;1 then
+factors[k]:=g;
+k:=k+1;
+if k=rg then
+sigue:=false;
+fi;
+mods(Divide(c,g,'q'),p); <Font foreground="[51,102,255]">#mira si g divide a u y en caso afirmativo hace q tal que u=g*q
+</Font>c:=q;
+fi;
+s:=s+1;
+od;
+od;
+factors[k]:=c;
+fact:=1;
+for i from 1 to k do
+fact:=fact*factors[i];
+od;
+return factor(fact);
+end:</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L2470" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">berlekampfp(x^2+1,3,x)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXN1cEdGJDYlLUkjbWlHRiQ2JVEieEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21uR0YkNiRRIjJGJy9GNlEnbm9ybWFsRicvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2LVEnJnBsdXM7RidGPC8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGRy8lKXN0cmV0Y2h5R0ZHLyUqc3ltbWV0cmljR0ZHLyUobGFyZ2VvcEdGRy8lLm1vdmFibGVsaW1pdHNHRkcvJSdhY2NlbnRHRkcvJSdsc3BhY2VHUSwwLjIyMjIyMjJlbUYnLyUncnNwYWNlR0ZWLUY5NiRRIjFGJ0Y8Rjw=">LCYqJClJInhHNiIiIiMiIiJGKEYoRig=</Equation></Text-field>
+</Output>
+</Group>
+<Group view="code" hide-input="false" labelreference="L2471" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Berlekamp(x^2+1,x) mod 3</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYmLUklbXN1cEdGJDYlLUkjbWlHRiQ2JVEieEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21uR0YkNiRRIjJGJy9GOVEnbm9ybWFsRicvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2LVEnJnBsdXM7RidGPy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGSi8lKXN0cmV0Y2h5R0ZKLyUqc3ltbWV0cmljR0ZKLyUobGFyZ2VvcEdGSi8lLm1vdmFibGVsaW1pdHNHRkovJSdhY2NlbnRHRkovJSdsc3BhY2VHUSwwLjIyMjIyMjJlbUYnLyUncnNwYWNlR0ZZLUY8NiRRIjFGJ0Y/Rj9GPy8lJW9wZW5HUScmbGN1YjtGJy8lJmNsb3NlR1EnJnJjdWI7Ric=">PCMsJiokKUkieEc2IiIiIyIiIiIiIiIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group view="code" hide-input="false" labelreference="L2472" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">berlekampfp(x^7+x-2,5,x)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkobWZlbmNlZEdGJDYkLUYjNiYtSSNtaUdGJDYlUSJ4RicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEoJm1pbnVzO0YnL0Y4USdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGQi8lKXN0cmV0Y2h5R0ZCLyUqc3ltbWV0cmljR0ZCLyUobGFyZ2VvcEdGQi8lLm1vdmFibGVsaW1pdHNHRkIvJSdhY2NlbnRHRkIvJSdsc3BhY2VHUSwwLjIyMjIyMjJlbUYnLyUncnNwYWNlR0ZRLUkjbW5HRiQ2JFEiMUYnRj5GPkY+LUY7Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y+RkBGQ0ZFRkdGSUZLRk0vRlBRJjAuMGVtRicvRlNGZm4tRiw2JC1GIzYwLUklbXN1cEdGJDYlRjAtRlU2JFEiNkYnRj4vJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUY7Ni1RJyZwbHVzO0YnRj5GQEZDRkVGR0ZJRktGTUZPRlItRl1vNiVGMC1GVTYkUSI1RidGPkZib0Zlby1GXW82JUYwLUZVNiRRIjRGJ0Y+RmJvRmVvLUZdbzYlRjAtRlU2JFEiM0YnRj5GYm9GZW8tRl1vNiVGMC1GVTYkUSIyRidGPkZib0Zlb0YwRmVvRmlwRj5GPkY+">KiYsJkkieEc2IiIiIkYmISIiRiYsMCokKUYkIiInRiZGJiokKUYkIiImRiZGJiokKUYkIiIlRiZGJiokKUYkIiIkRiZGJiokKUYkIiIjRiZGJkYkRiZGN0YmRiY=</Equation></Text-field>
+</Output>
+</Group>
+<Group view="code" hide-input="false" labelreference="L2473" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Berlekamp(x^7+x-2,x) mod 5</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYoLUYsNiYtSSNtaUdGJDYlUSJ4RicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEnJnBsdXM7RicvRjhRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0ZCLyUpc3RyZXRjaHlHRkIvJSpzeW1tZXRyaWNHRkIvJShsYXJnZW9wR0ZCLyUubW92YWJsZWxpbWl0c0dGQi8lJ2FjY2VudEdGQi8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRlEtSSNtbkdGJDYkUSI0RidGPkY+LUY7Ni1RIixGJ0Y+RkAvRkRGNkZFRkdGSUZLRk0vRlBRJjAuMGVtRicvRlNRLDAuMzMzMzMzM2VtRictRiw2MC1JJW1zdXBHRiQ2JUYwLUZVNiRRIjZGJ0Y+LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0Y6LUZdbzYlRjAtRlU2JFEiNUYnRj5GYm9GOi1GXW82JUYwRlRGYm9GOi1GXW82JUYwLUZVNiRRIjNGJ0Y+RmJvRjotRl1vNiVGMC1GVTYkUSIyRidGPkZib0Y6RjBGOkZjcEY+LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0ZCRj5GPi8lJW9wZW5HUScmbGN1YjtGJy8lJmNsb3NlR1EnJnJjdWI7Ric=">PCQsJkkieEc2IiIiIiIiJUYmLDAqJClGJCIiJ0YmRiYqJClGJCIiJkYmRiYqJClGJEYnRiZGJiokKUYkIiIkRiZGJiokKUYkIiIjRiZGJkYkRiZGNkYm</Equation></Text-field>
+</Output>
+</Group></Presentation-Block>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">En Fq.</Text-field></Title><Presentation-Block>
+<Group view="code" labelreference="L2483" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;
+with(linalg):
+
+introducirfila:=proc(A,posicion::integer,filanueva::array) <Font foreground="[51,102,255]">#cambia la fila posicion por filanueva</Font>
+local j,n;
+n:=coldim(A);
+for j from 1 to n do
+A[posicion,j]:=filanueva[j];
+return A;
+od;
+end:
+
+construirphifq:=proc(f::polynom,p::prime,h::polynom,x) <Font foreground="[51,102,255]">#construye la matriz 'phi' que se utiliza en el algoritmo de Berlkamp</Font>
+local A,phi,n,i,j,r,m,rn,l;
+n:=degree(h);
+phi:=Matrix(n);
+A:=array(1..n+1);
+for i from 1 to n+1 do
+A[i]:=coeff(h,x,i-1);
+od;
+r:=array(1..n);
+r[1]:=1;
+for i from 2 to n do
+r[i]:=0;
+od;
+introducirfila(phi,1,r);
+for m from 1 to (n-1)*p do
+rn:=r[n];
+l:=array(1..n);
+l[1]:=rem(-rn*A[1],h,x);
+for i from 2 to n do 
+l[i]:=rem(r[i-1]-mods(rn*A[i],p),f,x);
+od;
+for j from 1 to n do
+r[j]:=l[j];
+od;
+if irem(m,p)=0 then
+introducirfila(phi,iquo(m,p)+1,r);
+fi;
+od;
+return phi;
+end:
+
+<Font foreground="[51,102,255]">#Algoritmo principal</Font>
+berlekampfq:=proc(f::polynom,p::prime,h::polynom,x) 
+local phi,rg,n,i,j,c,k,s,g,W,factors,sigue,fact;
+phi:=construirphifq(f,p,h,x);
+rg:=rank(phi);
+n:=degree(h);
+for i from 1 to n do
+phi[i,i]:=phi[i,i]-1;
+od; 
+W:=array(1..rg);
+for i from 1 to rg do
+for j from 1 to n do
+W[i]:=x^(j-1)+W[i];
+od;
+od;
+factors:=array(1..rg);
+c:=h;
+k:=1;
+i:=1;
+while k&lt;&gt;rg do
+i:=i+1;
+s:=0;
+sigue:=true;
+while s&lt;=(p-1) and sigue do
+g:=rem(Gcd(W[i-s],c),f,x);
+if g&lt;&gt;1 then
+factors[k]:=g;
+k:=k+1;
+if k=rg then
+sigue:=false;
+fi;
+rem(Divide(c,g,'q'),f,x); <Font foreground="[51,102,255]">#mira si g divide a u y en caso afirmativo hace q tal que u=g*q
+</Font>c:=q;
+fi;
+s:=s+1;
+od;
+od;
+factors[k]:=c;
+fact:=1;
+for i from 1 to k do
+fact:=fact*factors[i];
+od;
+return factor(fact) mod p;
+end:</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L2484" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">berlekampfq(x^2-1,2,x^3+x+7,x)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1cEdGJDYlLUkjbWlHRiQ2JVEieEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21uR0YkNiRRIjNGJy9GNlEnbm9ybWFsRicvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2LVEnJnBsdXM7RidGPC8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGRy8lKXN0cmV0Y2h5R0ZHLyUqc3ltbWV0cmljR0ZHLyUobGFyZ2VvcEdGRy8lLm1vdmFibGVsaW1pdHNHRkcvJSdhY2NlbnRHRkcvJSdsc3BhY2VHUSwwLjIyMjIyMjJlbUYnLyUncnNwYWNlR0ZWRi5GQS1GOTYkUSIxRidGPEY8">LCgqJClJInhHNiIiIiQiIiJGKEYlRihGKEYo</Equation></Text-field>
+</Output>
+</Group>
+<Group view="code" hide-input="false" labelreference="L2481" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">alias(alpha = RootOf(x^2-1, x))</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVEoJmFscGhhO0YnLyUnaXRhbGljR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">SSZhbHBoYUc2Ig==</Equation></Text-field>
+</Output>
+</Group>
+<Group view="code" hide-input="false" labelreference="L2482" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Berlekamp(x^3+x+7,x,alpha) mod 2</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYoLUklbXN1cEdGJDYlLUkjbWlHRiQ2JVEieEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21uR0YkNiRRIjNGJy9GOVEnbm9ybWFsRicvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2LVEnJnBsdXM7RidGPy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGSi8lKXN0cmV0Y2h5R0ZKLyUqc3ltbWV0cmljR0ZKLyUobGFyZ2VvcEdGSi8lLm1vdmFibGVsaW1pdHNHRkovJSdhY2NlbnRHRkovJSdsc3BhY2VHUSwwLjIyMjIyMjJlbUYnLyUncnNwYWNlR0ZZRjFGRC1GPDYkUSIxRidGP0Y/Rj8vJSVvcGVuR1EnJmxjdWI7RicvJSZjbG9zZUdRJyZyY3ViO0Yn">PCMsKCokKUkieEc2IiIiJCIiIiIiIkkieEc2IiIiIiIiIiIiIg==</Equation></Text-field>
+</Output>
+</Group></Presentation-Block>
+</Section>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1">9. Algorimos de factorizacion en Z[x].</Text-field></Title>
+<Group labelreference="L33" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;
+<Font foreground="[51,102,255]">#Algortimo de Hensel</Font>
+hensel:=proc(a::polynom,p::prime,u1::polynom,w1::polynom)
+local B,alfa,gamma,s,t,m,u,w,e,c,SIGMA,TAO,q,r,sigma,tao,delta,i;
+if (lcoeff(a) mod p)&lt;&gt;0 and (a mod p)=(expand(u1*w1) mod p) then<Font foreground="[51,102,255]">#Comprobamos que cumple las condiciones</Font>
+B:=coeff(a,x,0);
+for i from 0 to degree(a) do
+if coeff(a,x,i)&gt;B then 
+B:=coeff(a,x,i);
+fi;
+od;
+alfa:=lcoeff(a);<Font foreground="[51,102,255]">#1.Coeficiente del monomio de mayor grado
+</Font>gamma:=alfa;
+gcdex(u1,w1,x,'s','t');<Font foreground="[51,102,255]">#2.Algoritmo Extendido de Euclides</Font>
+u:=u1;<Font foreground="[51,102,255]">#3.Iniciacion de la iteracion
+</Font>w:=w1;
+e:=(a-u1*w1);
+m:=p;
+while e&lt;&gt;0 and m&lt;2*B*gamma do<Font foreground="[51,102,255]">#4.Iteramos hasta obtener la factorizacion en Z[x] o hasta llegar a la cota
+</Font>c:=quo(e,m,x);
+SIGMA:=mods(s*c,p);
+TAO:=mods(t*c,p);
+q:=quo(simplify(SIGMA),simplify(w1),x);
+r:=rem(simplify(SIGMA),simplify(w1),x);
+sigma:=simplify(mods(r,p));<Font foreground="[51,102,255]">
+</Font>tao:=simplify(mods(TAO+q*u1,p));
+u:=simplify(u+tao*m);
+w:=simplify(w+sigma*m);
+e:=simplify(a-u*w);
+m:=m*p;
+od;
+if e=0 then<Font foreground="[51,102,255]">#5.Obtenemos la factorizacion
+</Font>delta:=cont(u);
+u:=u/delta;
+w:=w/(gamma/delta);
+print(a,` = `,u*w);
+else 
+print(`No existe factorizacion`);
+fi;
+else
+print(`Error en los datos de entrada`)
+fi;
+end:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L99" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">hensel(x^3+10*x^2-432*x+5040,5,x,x^2-2)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUYjNiotSSVtc3VwR0YkNiUtSSNtaUdGJDYlUSJ4RicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW5HRiQ2JFEiM0YnL0Y4USdub3JtYWxGJy8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRictSSNtb0dGJDYtUScmcGx1cztGJ0Y+LyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0ZJLyUpc3RyZXRjaHlHRkkvJSpzeW1tZXRyaWNHRkkvJShsYXJnZW9wR0ZJLyUubW92YWJsZWxpbWl0c0dGSS8lJ2FjY2VudEdGSS8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRlgtRiM2Ji1GOzYkUSMxMEYnRj4tRkQ2LVExJkludmlzaWJsZVRpbWVzO0YnRj5GR0ZKRkxGTkZQRlJGVC9GV1EmMC4wZW1GJy9GWkZeby1GLjYlRjAtRjs2JFEiMkYnRj5GQEY+LUZENi1RKCZtaW51cztGJ0Y+RkdGSkZMRk5GUEZSRlRGVkZZLUYjNiYtRjs2JFEkNDMyRidGPkZqbkYwRj5GQy1GOzYkUSU1MDQwRidGPkY+LUZENi1RKCZjb21tYTtGJ0Y+RkcvRktGNkZMRk5GUEZSRlRGXW8vRlpRLDAuMzMzMzMzM2VtRictRjE2JVEkfj1+RidGNEY3RmBwLUYjNiYtSShtZmVuY2VkR0YkNiQtRiM2JkYwRkMtRjs2JFEjMzBGJ0Y+Rj5GPkZqbi1GXHE2JC1GIzYoRmBvRmVvLUYjNiYtRjs2JFEjMjBGJ0Y+RmpuRjBGPkZDLUY7NiRRJDE2OEYnRj5GPkY+Rj5GPg==">NiUsKiokKUkieEc2IiIiJCIiIkYpKiYiIzVGKSlGJiIiI0YpRikqJiIkSyVGKUYmRikhIiIiJVNdRilJJH49fkdGJyomLCZGJkYpIiNJRilGKSwoKiRGLEYpRikqJiIjP0YpRiZGKUYwIiRvIkYpRik=</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1">10. Algorimo de primalidad de AKS.</Text-field></Title>
+<Group hide-input="false" labelreference="L34" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;
+with(NumberTheory):
+
+<Font foreground="[51,102,255]" encoding="UTF-8">#Copiamos parte de la pr\303\241ctica 1.1.</Font>
+mcdz:=proc(a::integer,b::integer)
+local dividendo,divisor,resto,resultado;
+dividendo:=abs(a);
+divisor:=abs(b);<Font foreground="[0,128,0]">
+</Font>while divisor&lt;&gt;0 do
+resto:=irem(dividendo,divisor);
+dividendo,divisor:=divisor,resto;
+od;
+resultado:=abs(dividendo);
+end:
+
+rvalor:=proc(n::integer)<Font foreground="[51,102,255]">#2.</Font>
+local r,k;
+for r from 1 to ceil(log[2](n)^5) do
+for k from 1 to floor(log[2](n)^2) while (n^k mod r)&lt;&gt;1 do
+od;
+if k=floor(log[2](n)^2) then return(r)
+fi;
+od;
+end:
+
+<Font foreground="[51,102,255]">#Algoritmo principal</Font>
+aks:=proc(n::posint)
+local b,r,a,c;
+if n=1 then return(`1`)
+fi;
+if n=2 then return(n,`es primo`)
+fi;
+for b from 2 to floor(log[2](n)) do
+if (floor((n)^(1/b)))^b=n then return(n,`compuesto`)<Font foreground="[51,102,255]">#1. Si existen naturales a,b&gt;1 tales que n=a^b entonces n es compuesto
+</Font>fi;
+od;
+r:=rvalor(n);<Font foreground="[51,102,255]" encoding="UTF-8">#2. Mas peque\303\261o valor de r tal que Or</Font><Font foreground="[51,102,255]">(n)&gt;log[2](n)^2
+</Font>for a from 1 to r do
+if 1&lt;mcdz(a,n) and mcdz(a,n)&lt;n then return(n,`es compuesto`)<Font foreground="[51,102,255]">#3. Si 1&lt;mcd(a,b)&lt;n para algun natural a&lt;=r entonces n es compuesto
+</Font>fi;
+od;
+if n&lt;=r then return(n,`es primo`)<Font foreground="[51,102,255]">#4. Si n&lt;=r entonces n es primo
+</Font>fi;
+for c from 1 to floor(sqrt(Totient(r))*log[2](n)) do
+if ((x+c)^n mod ((x^r-1) mod n))&lt;&gt;(x^n+c) then return(n,`es compuesto`)<Font foreground="[51,102,255]">#5. Para a desde 1 hasta [sqrt(phi(r))*log[2](n)], si (x+a)^n</Font><Equation executable="true" style="2D Input" input-equation="" display="LUkjbW9HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2LlEpJiN4MjI2MjtGJy8lK2ZvcmVncm91bmRHUS1bNTEsMTAyLDI1NV1GJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRicvJSZmZW5jZUdRJnVuc2V0RicvJSpzZXBhcmF0b3JHRjQvJSlzdHJldGNoeUdGNC8lKnN5bW1ldHJpY0dGNC8lKGxhcmdlb3BHRjQvJS5tb3ZhYmxlbGltaXRzR0Y0LyUnYWNjZW50R0Y0LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGQw==">LUkjbW9HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2LlEpJiN4MjI2MjtGJy8lK2ZvcmVncm91bmRHUS1bNTEsMTAyLDI1NV1GJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRicvJSZmZW5jZUdRJnVuc2V0RicvJSpzZXBhcmF0b3JHRjQvJSlzdHJldGNoeUdGNC8lKnN5bW1ldHJpY0dGNC8lKGxhcmdlb3BHRjQvJS5tb3ZhYmxlbGltaXRzR0Y0LyUnYWNjZW50R0Y0LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGQw==</Equation><Font foreground="[51,102,255]">x^n+a(mod x^r-1,n) entonces n es compuesto
+</Font>fi;
+od;
+return(n,`es primo`)<Font foreground="[51,102,255]">#6. n es primo</Font>
+end:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L75" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">aks(23)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW5HRiQ2JFEjMjNGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictSSNtb0dGJDYtUSgmY29tbWE7RidGLy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdRJXRydWVGJy8lKXN0cmV0Y2h5R0Y4LyUqc3ltbWV0cmljR0Y4LyUobGFyZ2VvcEdGOC8lLm1vdmFibGVsaW1pdHNHRjgvJSdhY2NlbnRHRjgvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1JI21pR0YkNiVRKWVzfnByaW1vRicvJSdpdGFsaWNHRjsvRjBRJ2l0YWxpY0YnRi8=">NiQiI0JJKWVzfnByaW1vRzYi</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L89" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">aks(24)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW5HRiQ2JFEjMjRGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictSSNtb0dGJDYtUSgmY29tbWE7RidGLy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdRJXRydWVGJy8lKXN0cmV0Y2h5R0Y4LyUqc3ltbWV0cmljR0Y4LyUobGFyZ2VvcEdGOC8lLm1vdmFibGVsaW1pdHNHRjgvJSdhY2NlbnRHRjgvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1JI21pR0YkNiVRLWVzfmNvbXB1ZXN0b0YnLyUnaXRhbGljR0Y7L0YwUSdpdGFsaWNGJ0Yv">NiQiI0NJLWVzfmNvbXB1ZXN0b0c2Ig==</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L93" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">aks(134)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW5HRiQ2JFEkMTM0RicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUkjbW9HRiQ2LVEoJmNvbW1hO0YnRi8vJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHUSV0cnVlRicvJSlzdHJldGNoeUdGOC8lKnN5bW1ldHJpY0dGOC8lKGxhcmdlb3BHRjgvJS5tb3ZhYmxlbGltaXRzR0Y4LyUnYWNjZW50R0Y4LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictSSNtaUdGJDYlUS1lc35jb21wdWVzdG9GJy8lJ2l0YWxpY0dGOy9GMFEnaXRhbGljRidGLw==">NiQiJE0iSS1lc35jb21wdWVzdG9HNiI=</Equation></Text-field>
+</Output>
+</Group>
+</Section><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L2407" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+</Group></Presentation-Block>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1">11. Extra: Crea Cuerpo
+</Text-field></Title>
+<Group labelreference="L2488" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">mcdzpx:=proc(a::polynom,b::polynom,x,p::integer)
+local dividendo,divisor,resto,resultado;
+dividendo:=a mod p;
+sort(dividendo);
+divisor:=b mod p;
+sort(divisor);
+while degree(divisor,x)&gt;=0 do
+resto:=rem(dividendo,divisor,x) mod p;
+dividendo,divisor:=divisor,resto;
+od;
+resultado:=factor((dividendo*inverso(lcoeff(dividendo),p)) mod p);
+end:
+
+inverso:=proc(a::integer,p::integer)
+local b,n,i,resultado;
+if gcd(p,a)&lt;&gt;1 then 
+print(&quot;No hay inverso&quot;);
+else
+b:=a mod p;
+i:=b;
+for n from 1 to p do
+if i&lt;&gt;1 then
+i:=b*n mod p;
+resultado:=n;
+elif b=1 then
+resultado:=1;
+fi;
+od;
+return resultado;
+fi;
+end:
+
+<Font foreground="[51,102,255]">#Test de irreducibilidad</Font>
+testirreducibilidadfpx:=proc(f::polynom,x,p::integer) #donde x es la variable con la que trabajamos
+local i, m, d, r, esirreducible; 
+m:=x; 
+d:=degree(f); 
+esirreducible:=true;
+i:=1;
+while i&lt;floor(d/2) and esirreducible do 
+m:=rem(m^p, f, x) mod p; 
+r:=mcdzpx(f, m-x, x, p);
+if r &lt;&gt; 1 then 
+esirreducible:=false;
+fi;
+i:=i+1;
+od; 
+return esirreducible;
+end: 
+
+<Font foreground="[51,102,255]">#algoritmo que nos da un cuerpo Fq
+
+</Font>CreaCuerpo:=proc(f::polynom,p::prime)
+local esirred,firred;
+esirred:=testirreducibilidadfpx(f,x,p);
+if esirred=true then
+firred:=f;
+print(&quot;es cuerpo&quot;);
+else
+print(&quot;no es cuerpo&quot;);
+fi;
+end:
+</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L2489" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">testirreducibilidadfpx(2*x^3-3*x,x,7)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVEldHJ1ZUYnLyUnaXRhbGljR0YrLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJw==">SSV0cnVlRyUqcHJvdGVjdGVkRw==</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L2491" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">CreaCuerpo(2*x^3-3*x,7)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbXNHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2I1EqZXN+Y3VlcnBvRic=">USplc35jdWVycG82Ig==</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L2492" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">testirreducibilidadfpx((x^5)+3*(x^4)+(x^3)+(x^2)+2*x+2,x,5)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVEmZmFsc2VGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRic=">SSZmYWxzZUclKnByb3RlY3RlZEc=</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L2493" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">CreaCuerpo((x^5)+3*(x^4)+(x^3)+(x^2)+2*x+2,5)</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbXNHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2I1Etbm9+ZXN+Y3VlcnBvRic=">US1ub35lc35jdWVycG82Ig==</Equation></Text-field>
+</Output>
+</Group><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L2486" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">JSFH</Equation></Text-field>
+</Input>
+</Group></Presentation-Block>
+</Section><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L2487" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">JSFH</Equation></Text-field>
+</Input>
+</Group></Presentation-Block>
+</Worksheet>
